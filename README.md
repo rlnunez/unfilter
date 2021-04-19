@@ -13,5 +13,5 @@ A simple app python app that will change the DNS settings of a Windows PC to dis
 * The profile/user account will need to be added to the "Network Configuration Operators" security group.
 
 ## Still working on: 
-[] Fixing the menu setup via the config.ini
-[] Add the option for a logging server to track date, time, card number, and PC name when filtering is disabled
+[ ] Fixing the menu setup via the config.ini
+[ ] Add the option for a logging server to track date, time, card number, and PC name when filtering is disabled
