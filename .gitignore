@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+ils.ini
+__pycache__/webserv.cpython-39.pyc
+.vscode/launch.json
+.vscode/settings.json
+workspace.code-workspace
+.DS_Store
