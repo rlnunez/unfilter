@@ -1,6 +1,6 @@
 [ILS]
-server = 
-user = 
-pass = 
-library = 
-client = 
+server = https://my.ILS.url.org
+user = Username
+pass = Password
+library = ILS library
+client = Client Name

@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 ils.ini
-__pycache__/webserv.cpython-39.pyc
 .vscode/launch.json
 .vscode/settings.json
 workspace.code-workspace
 .DS_Store
+config.ini

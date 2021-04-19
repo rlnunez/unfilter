@@ -1,0 +1,36 @@
+########################################
+# See https://docs.python.org/3/library/configparser.html for information on config file
+# File should be named config.ini 
+# All variables are required
+# Set Menu to no to disable the app menu
+########################################
+
+[MESSAGE]
+About = This app will disable all internet filtering from the computer. This is intended for patrons that are unable to access content due to the filter. Patrons are expected to continue following the Rules of Conduct for the Library. Patrons that do not follow these rules will be asked to leave and may be banned from the library.
+Button = Verify Card
+Label = Library Card Number
+
+[APP]
+Background = #303030
+Menu = yes
+
+[FONT]
+Size = 18
+Type = Helvedica
+Color = white
+
+########################################
+# List your menu titles here followed by a list of menus options
+# In this example the About option for the Help menu will be in a Message Box
+# The Policy and Rules of Conduct are websites
+# Possible options are: 
+# # msg : an informational message Box
+# # url : a website's url
+########################################
+[MENU]
+Help = msg, url, url
+
+[Help]
+About = ${MESSAGE:About}
+Internet Policy = https://YourInternetPolicy
+Rules of Conduct = https://YourRulesofConduct

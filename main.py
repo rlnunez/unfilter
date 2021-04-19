@@ -1,7 +1,7 @@
 from tkinter import Tk, messagebox, Label, Button, Menu, Entry, StringVar
 from webserv import cardVerify
 from configparser import ConfigParser, ExtendedInterpolation
-import webbrowser, os, copy
+import webbrowser, os
 
 config = ConfigParser(interpolation=ExtendedInterpolation())
 config.read('config.ini')
